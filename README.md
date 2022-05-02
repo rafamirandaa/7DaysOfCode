@@ -1,1 +1,3 @@
-# 7DaysOfCode
+# 7DaysOfCode:
+
+Projetinhos rápidos para exercitar, ENJOY!
