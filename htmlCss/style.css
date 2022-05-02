@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor1: #8e2424;
+    --cor2: #667085;
+    --cor3: #f9f4f4;
+    --cor4: #fdf8f8;
+    --cor5: #f9fafb;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* NAV */
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+
+.pages > a {
+    text-decoration: none;
+    color:  var(--cor2);
+    line-height: 24px;
+    font-size: 16px;
+    margin-right: 2rem;
+}
+
+
+.enterButton {
+    padding: 3px 10px;
+    color: var(--cor2);
+    background-color: white;
+    border: none;
+    font-size: 14px;
+}
+.registerButton {
+    padding: 7px 16px;
+    background-color: var(--cor1);
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+/* CABEÇALHO */ 
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+header > span {
+    color: var(--cor1);
+}
+
+header > p {
+    color: var(--cor2);
+    text-align: center;
+    padding-top: 20px;
+    max-width: 35%;
+    line-height: 1.5rem;
+}
+
+header > h1{
+    padding-top: 20px;
+}
+
+/* Sessão metricas */
+
+.metricas-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+section.metricas-container > div {
+    padding-left: 30px;
+}
+
+section.metricas-container > div > h1 {
+    color: var(--cor1);
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+section.metricas-container > div > h5 {
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+section.metricas-container > div > p {
+    color: var(--cor2);
+    font-size: 0.8rem
+}
+/* Sessão vagas */
+
+.vagas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+section.vagas-container > div > span {
+    color: var(--cor1);
+    background-color: var(--cor3);
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+section.vagas-container > div > h2 {
+    margin-top: 20px;
+}
+
+section.vagas-container > div > p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: var(--cor2);
+    font-size: 0.8rem;
+}
+.infos-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-container > h5 {
+    font-size: 17px;
+    padding-top: 3rem;
+    text-align: left;
+}
+.infos-container > .vaga {
+    text-align: left;
+    padding: 2rem 30rem 2rem 2rem; 
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.info-vaga {
+    padding-top: 40px;
+}
+
+.info-vaga > span {
+    color: var(--cor2);
+}
+
+/* Sessão depoimentos */
+
+.depoimentos-container {
+    background-color: var(--cor4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.depoimentos-container > span {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: var(--cor1);
+    font-size: 0.9rem;
+}
+
+.depoimentos-container > h2 {
+    text-align: center;
+    max-width: 55%;
+}
+
+.depoimentos-container > img {
+    margin-top: 20px;
+}
+
+.depoimentos-container > p {
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.depoimentos-container > .cinza {
+    color: var(--cor2);
+    margin-bottom: 2rem;
+}
+
+/* Newslatter */
+
+.newslatter {
+    background-color: var(--cor5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newslatter > p {
+    color: var(--cor2);
+    margin: 2rem;
+}
+
+.newslatter > div >.email {
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 0.5rem 4rem 0.5rem 1rem; 
+    
+}
+
+.newslatter > .registerButton {
+    /* Colocar botão ao lado do input email */
+}
+
+.newslatter > span {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    color: var(--cor2);
+    font-size: 0.8rem;
+}
